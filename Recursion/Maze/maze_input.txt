@@ -1,0 +1,6 @@
+import turtle
+
+PART_OF_PATH = 'O'
+TIRED = '.'
+OBSTACLE = "+"
+DEAD_END = "-"

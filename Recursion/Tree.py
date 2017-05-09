@@ -1,3 +1,6 @@
+import random
+
+
 def tree(branch_len, t):
 	if branch_len > 5:
 		t.forward(branch_len)
@@ -6,10 +9,11 @@ def tree(branch_len, t):
 		t.left(40)
 		tree(branch_len - 10, t)
 		t.right(20)
-		t.backwards(branch_len)
+		t.backward(branch_len)
 
 
 def main():
+	ran = 
 	t = turtle.Turtle()
 	my_win = turtle.Screen()
 	t.left(90)
@@ -19,5 +23,3 @@ def main():
 	t.color("green")
 	tree(75,t)
 	my_win.exitonclick()
-
-main()
